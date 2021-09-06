@@ -28,6 +28,12 @@ function maximo($nums1){
     return max($nums1);
 }
 
+$total=0;
+function dividir($nums2){
+    $nums2 = $tSuma/$cantidad;
+    return $total;
+}
+
 $cuenta = array_count_values($nums1);
 arsort($cuenta);
 print_r($nums1);
@@ -36,6 +42,8 @@ print_r($nums1);
 
 echo "<br>";
 echo $cArray;
+echo "<br>";
+echo $total;
 echo "<br>";
 echo suma($nums1);
 echo "<br>";
