@@ -1,7 +1,7 @@
 <?php
 include_once("objeto.php");
 
-$objMaterial=new Material ("Terror", "E513", "Howard Phillips Lovecraft", "LOS MITOS DE CTHULHU", 978, "DISPONIBLE");
+$objMaterial=new Material ("Terror", "E513", "Howard Phillips Lovecraft", "LOS MITOS DE CTHULHU", 1998, "DISPONIBLE");
 $libro =new libro ("COMCOSUR");
 
 $objJavaScript=new Material ("LENGUAJES DE PROGRAMACIÓN", "lJ01", "David Sawyer McFarland", "JavaScript", 001, "DISPONIBLE");

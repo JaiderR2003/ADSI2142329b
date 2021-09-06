@@ -6,15 +6,15 @@ class Material extends biblioteca{
     private $codigo;
     private $autor;
     private $titulo;
-    private $anid;
+    private $año;
     private $status;
 
-public function __construct($tipoMaterial, $codigo, $autor, $titulo, $anid, $status){
+public function __construct($tipoMaterial, $codigo, $autor, $titulo, $año, $status){
     $this->tipoMaterial=$tipoMaterial;
     $this->codigo=$codigo;
     $this->autor=$autor;
     $this->titulo=$titulo;
-    $this->anid=$anid;
+    $this->año=$año;
     $this->status=$status;
 }//cierre del constructor
 
@@ -30,8 +30,8 @@ public function getAutor(){
 public function getTitulo(){
     return $this->titulo;
 }
-public function getAnid(){
-    return $this->anid;
+public function getAño(){
+    return $this->año;
 }
 public function getStatus(){
     return $this->status;
@@ -50,15 +50,15 @@ public function setAutor(){
 public function setTitulo(){
     return $this->titulo;
 }
-public function setAnid(){
-    return $this->anid;
+public function setAño(){
+    return $this->año;
 }
 public function setStatus(){
     return $this->status;
 }//cierre de set
 
 public function datos(){
-    echo  "Este es un libro de: ". $this->tipoMaterial. "<br>". " Su código es el: ". $this->codigo. "<br>". " Su autor es ". $this->autor. "<br>"." El nombre de éste es: ". $this->titulo. "<br>". " Su anis es: ". $this->anid. "<br>". " El estdo es: ". $this->status. "<br>"; 
+    echo  "Este es un libro de: ". $this->tipoMaterial. "<br>". " Su código es el: ". $this->codigo. "<br>". " Su autor es ". $this->autor. "<br>"." El nombre de éste es: ". $this->titulo. "<br>". " Su año de publicación es: ". $this->año. "<br>". " El estdo es: ". $this->status. "<br>"; 
 }
 
 }//cierre de la clase
