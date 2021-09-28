@@ -15,10 +15,35 @@
                 <p>DESARROLLADOR WEB</p>
             </div>
             <form>
-                <input type="text" class="buscador" id="buscador" placeholder="Buscar">
+                <input type="text" class="contenedor__buscador" id="buscador" placeholder="Buscar">
             </form>
         </header>
     </div>
 
+    <div class="navegador">
+        <nav class="navegador__nav">
+            <ul class="navegador__ul">
+                <li> <a href="#">¿Quien soy?</a> </li>
+                <li> <a href="#">Servicios</a></li>
+                <li> <a href="#">Recursos</a></li>
+                <li> <a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section>
+        <table class="contenido">
+            <tr class="contenedor__tabla">
+                <td class="contenedor__celda"><br>
+                    <label class="contenedor__titulo"> Diseñador y desarrollador web en proceso.</label>
+                    <img src="Imagen/computadoras.png">
+                    <p class="contenido__texto">Estoy en proceso de ser un desarrollador web. Estoy estudiando un tecnologo en el Sena para poder aprender y poder desempeñar un buen trabajo </p>
+                <td>
+            </tr>
+        </table>
+</section>
+<footer class="pie">
+    <p>Copyright © 2021 Jaider Andres Rodriguez</p>
+</footer>
 </body>
 </html>
