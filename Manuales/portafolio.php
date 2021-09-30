@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="Css/portafolio.css">
     <title>Jaider Andres Rodriguez</title>
 </head>
 <body>
@@ -14,19 +15,16 @@
                 <h1>Jaider Andres Rodriguez</h1>
                 <p>DESARROLLADOR WEB</p>
             </div>
-            <form>
-                <input type="text" class="contenedor__buscador" id="buscador" placeholder="Buscar">
-            </form>
         </header>
     </div>
 
     <div class="navegador">
         <nav class="navegador__nav">
             <ul class="navegador__ul">
-                <li> <a href="#">¿Quien soy?</a> </li>
-                <li> <a href="#">Servicios</a></li>
-                <li> <a href="#">Recursos</a></li>
-                <li> <a href="#">Contacto</a></li>
+                <li class="navegador__li"> <a href="#">¿Quien soy?</a> </li>
+                <li class="navegador__li"> <a href="#">Servicios</a></li>
+                <li class="navegador__li"> <a href="#">Recursos</a></li>
+                <li class="navegador__li"> <a href="#">Contacto</a></li>
             </ul>
         </nav>
     </div>
