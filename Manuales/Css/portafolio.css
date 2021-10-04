@@ -11,13 +11,13 @@ body{
 }
 
 .navegador__nav{
-    background-color: gold;
+    background-color: gray;
     list-style: none;
     border-radius: 35px;
     width: 1350px;
 }
 .navegador__nav li{
-    background-color: black;
+    background-color: ;
 }
 a{
     text-decoration: none;
