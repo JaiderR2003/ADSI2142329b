@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../Imagen/fondoAzul.jpg') no-repeat;
+    background: rgba(230,230,250);
+    background-size: cover;
+}
+
+.box{
+    width: 100%;
+    background:rgba(119, 119, 126, 0.7);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box__imagen{
+    border-radius: 50%;
+}
+
+.box__titulo{
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+
+.box__h2{
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.box__parrafo{
+    text-align: justify;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.box__ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.box--li{
+    display: inline-block;
+
+}
+
+.box--li--a{
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+    display: block;
+    transition: all 0.5 ease-in-out;
+}
+
+.box--li--a:hover{
+    color: #b8b8b8;
+    transform: scale(1.3);
+}
+
+.barra{
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 10%;
+    height: 9%;
+    position: fixed;
+    transition: .4s all;
+    z-index: 1;
+}
+
+.barra ul{
+    padding: 0px;
+    text-align: center;
+}
+
+.barra li{
+    transition: .1s all;
+}
+
+.barra a{
+    text-decoration: none;
+    list-style: none;
+    transition: .3s all;
+    font-size: 0px;
+    padding: 0px;
+}
+
+.barra h2{
+    text-align: center;
+    color: white;
+    padding: 7px;
+    padding-bottom: 7px;
+
+    font-size: 0px;
+}
+
+.barra img{
+    padding-top: 0px;
+    padding-left: 120px;
+}
+
+.barra:hover{
+    width: 30%;
+    height: 100%;
+
+    background-color: rgb(5, 33, 51, 0.98);
+}
+
+.barra:hover h2{
+    padding: 15 px;
+    font-size: 35px;
+}
+
+.barra:hover a{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+    display: block;
+    padding: 20px;
+}
+
+.barra:hover img{
+    height: 0px;
+}
+
+.barra:hover li{
+    border-top: 1px solid black;
+
+    width: 100%;
+}
+
+.barra:hover ul:last-of-type{
+    border-bottom: 1px solid black;
+}
+
+.barra:hover a:hover{
+    font-size: 25px;
+    padding: 30px 0px;
+    background-color: rgba(22, 78, 112, 0.98);
+}
+
+.saludar{
+    width: 590px;
+    background:transparent;
+    margin: 0 auto;
+    margin-top: 0.5%;
+    padding: 20px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+}
+.saludar__imagen{
+    border-radius: 50%;
+}
+
+.saludar__h2{
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: rgb(8, 6, 6);
+}
+
+.temas{
+    background-color:rgba(119, 119, 126, 0.7);
+    padding: 1em;
+    overflow: hidden;
+}
+
+.temas__cuadro{
+    margin: 1em;
+    width: 22%;
+    height: 500px;
+    padding: 100px;
+    background-color: rgba(119, 119, 126, 0.7);
+    float: left;
+    border-radius: 100px;
+}
+
+.pie{
+    text-align: center;
+    border-radius: 15px;
+    background: rgb(136, 133, 133, 0.4);
+}
