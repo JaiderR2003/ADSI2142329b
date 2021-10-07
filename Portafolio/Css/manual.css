@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(255, 255, 255,);
+    background-size: cover;
+}
+.cabeza__contenido{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 250px;
+    background: rgba(30, 91, 233, 0.8);
+    text-align: center;
+    border-radius: 10px;
+}
+.cabeza--titulo{
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.cabeza--imagen{
+    width: 200px;
+    border-radius: 100%;
+}
+
+.navegador__contenido{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(30, 91, 233, 0.8);
+    border-radius: 10px;
+}
+.navegador--tabla{
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.navegador--li{
+    display: inline-block;
+    text-align: center;
+}
+.navegador--a{
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    width: 500px;
+    display: block;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navegador--a:hover{
+    background: rgba(30, 91, 233, 0.9);
+}
+
+.seccion__contenido{
+    width: 90%;
+    height: 600px;
+    background: rgba(30, 91, 233, 0.8);
+    margin: auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+.seccion--imagen{
+    width: 200px;
+    border-radius: 100%;
+}
+.seccion--titulo{
+    font-size: 40px;
+    text-align: center;
+}
+.seccion--parrafo1{
+    font-size: 30px;
+    text-align: auto;
+}
+.seccion--parrafo2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.pie{
+    width: 90%;
+    height: 100px;
+    background-color: rgba(30, 91, 233, 0.8);
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+.pie--parrafo{
+    font-size: 20px;
+    text-align: center;
+}
+
+.usuarioSeccion__contenido{
+    width: 90%;
+    height: 900px;
+    background: rgba(30, 91, 233, 0.8);
+    margin:auto;
+    text-align: center;
+}

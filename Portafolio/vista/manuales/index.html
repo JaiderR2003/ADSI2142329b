@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../Css/estilos.css">
-    <title>Tarea</title>
+    <link rel="stylesheet" href="../../Css/manual.css">
+    <title>Manuales</title>
 </head>
 <body>
-    <header>
-        <a href="#">
-        <img src="../../Imagen/estudioso.gif" alt="logo" id="logo">
-        </a>
+    <header class="cabeza">
+        <div class="cabeza__contenido">
+            <h2 class="cabeza--titulo">Manuales</h2>
+            <img src="../../Imagen/manuales.jpg" alt="imagen de manuales" class="cabeza--imagen">
+        </div>
     </header>
-    <nav>
-        <ul class="navegador">
-            <li> <a href="#" class="navegador__boton">Manual usuario</a> </li>
-            <li> <a href="#" class="navegador__boton">Manual tecnico</a> </li>
-            <li> <a href="#" class="navegador__boton">Introduccion</a> </li>
-            <li> <a href="#" class="navegador__boton">Objetivos</a> </li>
-            <li> <a href="#" id="navegador_inicio">Inicio Sesion</a> </li>
-        </ul>
-    </nav>
+    <nav class="navegador">
+        <div class="navegador__contenido">
+            <ul class="navegador--tabla">
+                <li class="navegador--li"><a class="navegador--a" href="usuario.html">Usuarios</a></li>
+                <li class="navegador--li"><a class="navegador--a" href="#">Cliente</a></li>
+            </ul>
+        </div>
+    </nav><br>
+    <section class="seccion">
+        <div class="seccion__contenido">
+            <img src="../../Imagen/objetivo.jpg" class="seccion--imagen">
+            <h3 class="seccion--titulo">Objetivos de este Manual</h3>
+            <p class="seccion--parrafo1">Los objetivos que tiene este manual, son el de mostrar cómo se debe realizar un manual de usuarios y un manual de clientes con su debido paso a paso.</p><br>
+            <p class="seccion--parrafo2">Antes de empezar, hay que aclarar que el significado de la palabra "Manual" se puede definir como un libro o folleto, en donde se dan las instrucciones para el uso o mantenimiento de un aparato, un sistema o entre otros. Claro ejemplo podría ser el manual de usuario para un software.</p>
+        </div>
+    </section><br>
+    <footer class="pie">
+        <p class="pie--parrafo">Este material fue creado por Jaider Rodriguez © 2021</p>
+    </footer>
 </body>
 </html>

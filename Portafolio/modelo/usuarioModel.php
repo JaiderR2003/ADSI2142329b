@@ -1,5 +1,5 @@
 <?php
-class AlumnoModel
+class UsuarioModel
 {
 	private $pdo;
 
@@ -7,7 +7,7 @@ class AlumnoModel
 	{
 		try
 		{
-			$this->pdo = new PDO('mysql:host=localhost;dbname=test', 'root', '');
+			$this->pdo = new PDO('mysql:host=localhost;dbname=natupoints', 'root', '');
 			$this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);		        
 		}
 		catch(Exception $e)
@@ -22,12 +22,12 @@ class AlumnoModel
 		{
 			$result = array();
 
-			$stm = $this->pdo->prepare("SELECT * FROM alumnos");
+			$stm = $this->pdo->prepare("SELECT * FROM usuarios");
 			$stm->execute();
 
 			foreach($stm->fetchAll(PDO::FETCH_OBJ) as $r)
 			{
-				$alm = new Alumno();
+				$alm = new Usuario();
 
 				$alm->__SET('id', $r->id);
 				$alm->__SET('Nombre', $r->Nombre);
@@ -51,13 +51,13 @@ class AlumnoModel
 		try 
 		{
 			$stm = $this->pdo
-			          ->prepare("SELECT * FROM alumnos WHERE id = ?");
+			          ->prepare("SELECT * FROM usuarios WHERE id = ?");
 			          
 
 			$stm->execute(array($id));
 			$r = $stm->fetch(PDO::FETCH_OBJ);
 
-			$alm = new Alumno();
+			$alm = new Usuario();
 
 			$alm->__SET('id', $r->id);
 			$alm->__SET('Nombre', $r->Nombre);
@@ -77,7 +77,7 @@ class AlumnoModel
 		try 
 		{
 			$stm = $this->pdo
-			          ->prepare("DELETE FROM alumnos WHERE id = ?");			          
+			          ->prepare("DELETE FROM usuarios WHERE id = ?");			          
 
 			$stm->execute(array($id));
 		} catch (Exception $e) 
@@ -86,11 +86,11 @@ class AlumnoModel
 		}
 	}
 
-	public function Actualizar(Alumno $data)
+	public function Actualizar(Usuario $data)
 	{
 		try 
 		{
-			$sql = "UPDATE alumnos SET 
+			$sql = "UPDATE usuarios SET 
 						Nombre          = ?, 
 						Apellido        = ?,
 						Sexo            = ?, 
@@ -113,11 +113,11 @@ class AlumnoModel
 		}
 	}
 
-	public function Registrar(Alumno $data)
+	public function Registrar(Usuario $data)
 	{
 		try 
 		{
-		$sql = "INSERT INTO alumnos (Nombre,Apellido,Sexo,FechaNacimiento) 
+		$sql = "INSERT INTO usuarios (Nombre,Apellido,Sexo,FechaNacimiento) 
 		        VALUES (?, ?, ?, ?)";
 
 		$this->pdo->prepare($sql)

@@ -1,10 +1,10 @@
 <?php
-require_once '../controlador/alumno.entidad.php';
-require_once '../modelo/alumno.model.php';
+require_once '../controlador/control.php';
+require_once '../modelo/usuarioModel.php';
 
 // Logica
-$alm = new Alumno();
-$model = new AlumnoModel();
+$alm = new Usuario();
+$model = new UsuarioModel();
 
 if(isset($_REQUEST['action']))
 {
@@ -117,7 +117,7 @@ if(isset($_REQUEST['action']))
                         <tr>
                             <td><?php echo $r->__GET('Nombre'); ?></td>
                             <td><?php echo $r->__GET('Apellido'); ?></td>
-                            <td><?php echo $r->__GET('Sexo') == 1 ? 'H' : 'F'; ?></td>
+                            <td><?php echo $r->__GET('Sexo') == 1 ? 'M' : 'F'; ?></td>
                             <td><?php echo $r->__GET('FechaNacimiento'); ?></td>
                             <td>
                                 <a href="?action=editar&id=<?php echo $r->id; ?>">Editar</a>
