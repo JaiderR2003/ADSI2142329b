@@ -5,7 +5,7 @@
 }
 
 body{
-    background: rgba(255, 255, 255,);
+    background: gray;
     background-size: cover;
 }
 .cabeza__contenido{
@@ -101,8 +101,40 @@ body{
 
 .usuarioSeccion__contenido{
     width: 90%;
-    height: 900px;
+    height: 2800px;
     background: rgba(30, 91, 233, 0.8);
     margin:auto;
     text-align: center;
+}
+.usuarioSeccion--titulo{
+    font-size: 40px;
+    color: white;
+}
+.usuarioSeccion--imagen{
+    width: 220px;
+    border-radius: 100%;
+}
+.usuarioSeccion--parrafo{
+    font-size: 30px;
+    color: black;
+}
+.clienteSeccion__contenido{
+    width: 90%;
+    height: 2100px;
+    background: rgba(30, 91, 233, 0.8);
+    margin:auto;
+    text-align: center;
+}
+.clienteSeccion--imagen{
+    margin-top: 35px;
+    width: 220px;
+    border-radius: 100%;
+}
+.clienteSeccion--titulo{
+    font-size: 40px;
+    color: white;
+}
+.clienteSeccion--parrafo{
+    font-size: 30px;
+    color: black;
 }
