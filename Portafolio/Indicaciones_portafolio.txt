@@ -1,0 +1,8 @@
+Para poder visualizar el portafolio, se debe clonar el repositorio https://github.com/JaiderR2003/ADSI2142329b
+El portafolio está en la carpeta Portafolio. La página principal se llama 'index.html'(que se encontrará debajo de la carpeta vista).Ademas de eso, habrá un archivo llamado 'natupoints.sql' el cual es la tabla de la base de datos del CRUD y se debe importar a Mysql. La base de datos debe llamarse 'natupoints'
+
+En el index (página principal del portafolio) hay una barra de navegación llamada Menu el cuál estará flotando al lado superior izquierdo, solo se debe dar click y bajará el menú de navegación 
+
+Los manuales estarán en la carpeta vista/manuales. Aunque usted podrá acceder a ellos gracias a la barra de navegación anteriormente descrita
+
+Los trabajos de JavaScript estarán en el repositorio. También se podrá acceder a ellos mediante la barra de navegación 
