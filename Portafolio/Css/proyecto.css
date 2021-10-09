@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-}#fondo {
+}
+#fondo {
 	background-image: url('../Imagenes/Fondo.jpg');
 	text-align: center;
 	background-position: center center;

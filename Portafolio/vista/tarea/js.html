@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../Css/js.css">
+    <title>Trabajos js</title>
+</head>
+<body>
+    <header>
+        <div class="barra">
+            <h2>Menu<img src="../../Imagen/MENU2.png"></h2>
+
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../index.php">CRUD</a></li>
+                <li><a href="../manuales/index.html">Manuales</a></li>
+            </ul>
+            
+        </div>
+    </header>
+    <section class="container">
+        <img class="container__imagen" src="../../Imagen/js.png" alt="">
+        <h1 class="tirulo">Trabajos realizados en js</h1>
+        <p>Estos son los trabajos que se han realizado hasta el momento en ADSI ficha:2142329 en JavaScript</p>
+
+    </section>
+    <br> <br>
+    <section class="contenedor">
+        <div class="contenido">
+            <div class="contenido__cuadro">
+                <h2 class="titulo">Cómo se trabaja con las funciones flecha</h2>
+                <img class="contenido__imagen" src="../../Imagen/flecha.png" alt="imagen-fleca">
+                <p class="parrafo">La funcion flecha, es un modo para definir funciones con una sintaxis más abreviada. Esto nos permitirá ahorrar tiempo a la hora de programar</p>
+                <h3 class="subtitulo">A continuación veremos como hacer un código que nos elelve al cuadrado un numero</h3>
+                <pre class="contenido__codigos">
+function cuadrado (num){
+return num*num;
+}
+                    
+console.log('tradicional: '+cuadrado(10))
+                </pre>
+                <h3>Y ahora vamos a realizar el mismo ejercicio, pero con la función flecha</h3>
+                <pre class="contenido__codigos">
+var r=nume=>nume*nume;
+
+console.log('flecha: '+r(5))
+                </pre>
+                <p class="parrafo">Como podemos observar, la función flecha es mucho más corta que la anterior y tiene un igual y mayor que (=>) que nos ayuda a identificar que una función flecha</p>
+            </div> <br> <br>
+
+            <div class="contenido__cuadro">
+                <h2 class="titulo">Que son las fracciones?</h2>
+                <img class="contenido__imagen" src="../../Imagen/fraccion.png" alt="imagen--fraccion">
+                <p class="parrafos">Las fracciones son una unidad dividida, esto quiere decir que es un pedazo que formaba parte algo. Por ejemplo: un pedazo de un pastel es una fraccion</p>
+                <pre class="contenido__codigos">
+var frac={
+    n1:1,
+    n2:2,
+    d1:2,
+    d2:3,
+    suma:function(){
+        numeradorS1=this.n1 * this.d2;
+        numeradorS2=this.n2 * this.d1;
+        numeradorSF=numeradorS1 + numeradorS2;
+        denominadorS=this.d1 * this.d2;
+        return 'el resultado de la suma es '+ numeradorSF + ' / ' + denominadorS;
+    },
+    resta:function(){
+        numeradorR1=this.n1 * this.d2;
+        numeradorR2=this.n2 * this.d1;
+        numeradorRF=numeradorS1 - numeradorS2;
+        denominadorR=this.d1 * this.d2;
+        return 'el resultado de la resta es '+ numeradorRF + ' / ' + denominadorR;
+    },
+    multi:function(){
+        numeradorM1=this.n1 * this.n2;
+        numeradorM2=this.d1 * this.d2;
+        return 'el resultado de la multiplicacion es '+ numeradorM1 + ' / ' +numeradorM2;
+    },
+    divi:function(){
+        numeradorD1=this.n1 * this.d2;
+        numeradorD2=this.n2 * this.d1;
+        return 'el resultado de la division es '+ numeradorD1 + ' / ' +numeradorD2;
+        }
+    }               
+console.log(frac.suma());
+                    
+console.log(frac.resta());
+                    
+console.log(frac.multi());
+                    
+console.log(frac.divi());
+                </pre>
+                <p class="parrafo">En el ejemplo anterior, realizamos un código que nos permita obtener fracciones con los operadores de suma, resta, multiplicación y division</p>
+            </div> <br> <br>
+
+            <div class="contenido__cuadro">
+                <h2 class="titulo">Qué es la herencia?</h2>
+                <img class="contenido__imagen" src="../../Imagen/herencia.png" alt="imagen--herencia">
+                <p class="parrafos">La herencia permite que una clase tenga el mismo comportamiento que otra clase y amplíe o adapte ese comportamiento para brindar una acción especial para necesidades específicas</p>
+                <pre class="contenido__codigos">
+                    class ZonasVerdes{
+                        constructor(IdZona, Nombre){
+                            this._IdZona=IdZona;
+                            this._Nombre=Nombre;
+                        }
+                    
+                        set IdZona(IdZona){
+                            this._IdZona=IdZona;
+                        }
+                    
+                        get IdZona(){
+                            return this._IdZona;
+                        }
+                    
+                        set Nombre(Nombre){
+                            this._Nombre=Nombre;
+                        }
+                    
+                        get Nombre(){
+                            return this._Nombre;
+                        }
+                    }
+                    
+                    class ZonasNaturales extends ZonasVerdes{
+                        constructor (IdZona, Nombre, Ubicacion, Descripcion, Imagen){
+                            super(IdZona, Nombre);
+                            this._Ubicacion=Ubicacion;
+                            this._Descripcion=Descripcion;
+                            this._Imagen=Imagen;
+                        }
+                    
+                        set Ubicacion(Ubicacion){
+                            this._Ubicacion=Ubicacion;
+                        }
+                    
+                        get Ubicacion(){
+                            return this._Ubicacion;
+                        }
+                    
+                        set Descripcion(Descripcion){
+                            this._Descripcion=Descripcion;
+                        }
+                    
+                        get Descripcion(){
+                            return this._Descripcion;
+                        }
+                    
+                        set Imagen(Imagen){
+                            this._Imagen=Imagen;
+                        }
+                    
+                        get Imagen(){
+                            return this._Imagen;
+                        }
+                    }
+                    
+                    zona=new ZonasNaturales(1, 'Boquemonte', 'Via Tequendama', 'Parque natural', 'https://i.ytimg.com/vi/a2JOp_I-_z4/maxresdefault.jpg');
+                    
+                    console.log(zona);
+                    
+                    // ------------------- COMPOSICION ---------------------
+                    
+                    class Zonas{
+                        constructor(znas){
+                            this._znas=znas;
+                        }
+                    }
+                    
+                    var zn1=new ZonasVerdes();
+                    var zn2=new ZonasVerdes(); 
+                    var misitio=[];
+                    misitio.push(zn2);
+                    misitio.push(zn1);
+                    mizona=new Zonas(misitio);
+                </pre>
+                <p class="parrafo">Como podemos observar, tenemos una superclase llamada Zonasverdes junto con sus atributos y debajo de ésta tenemos una clase "hija" llamada ZonasNaturales con la palabra (extends). La palabra "extends" nos permite heredarle a la clase "hija" atributos de la superclase, ademas de que con solo ver la palabra "extends" ya podemos deducir que es una herencia</p>
+            </div> 
+        </div>
+        <footer class="pie">
+            <h2>Hecho a mano por mí © 2021</h2>
+        </footer>
+    </section>
+</body>
+</html>

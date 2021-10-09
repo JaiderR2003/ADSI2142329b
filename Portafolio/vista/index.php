@@ -47,7 +47,7 @@ if(isset($_REQUEST['action']))
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<title>Anexsoft</title>
+		<title>Natupoints</title>
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
         <link rel="stylesheet" href="../Css/proyecto.css">
 	</head>
@@ -58,12 +58,6 @@ if(isset($_REQUEST['action']))
         <img src="../Imagen/LogoD.png" alt="Logo" id="logo" >
         <img src="../Imagen/LogoC.png" alt="" id="logo2">
         </a>
-        <nav>
-            <ul class="nav_links">
-                <li> <a href="../Index.php">Inicio</a> </li>
-                <li> <a href="../Vista/Mapa.php ">Mapa</a> </li>
-            </ul>
-        </nav>
     </header>
 
         <div class="pure-g">
