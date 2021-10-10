@@ -175,14 +175,15 @@ body {
 .temas{
     background-color:rgba(119, 119, 126, 0.7);
     padding: 1em;
+    height: 90%;
     overflow: hidden;
-    position: absolute;
+
 }
 
 .temas__cuadro{
     margin: 1em;
     width: 22%;
-    height: 600px;
+    height: 710px;
     padding: 100px;
     background-color: rgba(119, 119, 126, 0.7);
     float: left;

@@ -51,10 +51,11 @@ body{
     text-decoration: none;
     list-style: none;
     padding: 20px;
-    width: 500px;
+    width: 250px;
     display: block;
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
 }
 .navegador--a:hover{
     background: rgba(30, 91, 233, 0.9);
@@ -62,7 +63,7 @@ body{
 
 .seccion__contenido{
     width: 90%;
-    height: 600px;
+    height: 90%;
     background: rgba(30, 91, 233, 0.8);
     margin: auto;
     text-align: center;
@@ -101,7 +102,7 @@ body{
 
 .usuarioSeccion__contenido{
     width: 90%;
-    height: 2800px;
+    height: 91%;
     background: rgba(30, 91, 233, 0.8);
     margin:auto;
     text-align: center;
@@ -120,7 +121,7 @@ body{
 }
 .clienteSeccion__contenido{
     width: 90%;
-    height: 2100px;
+    height: 90%px;
     background: rgba(30, 91, 233, 0.8);
     margin:auto;
     text-align: center;
