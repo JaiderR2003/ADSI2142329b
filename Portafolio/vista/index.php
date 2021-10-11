@@ -54,7 +54,7 @@ if(isset($_REQUEST['action']))
     <body style="padding:15px;">
 
     <header>
-        <a href="../Index.php">
+        <a href="#">
         <img src="../Imagen/LogoD.png" alt="Logo" id="logo" >
         <img src="../Imagen/LogoC.png" alt="" id="logo2">
         </a>
@@ -86,7 +86,7 @@ if(isset($_REQUEST['action']))
                         </tr>
                         <tr>
                             <th style="text-align:left;">Fecha</th>
-                            <td><input type="text" name="FechaNacimiento" value="<?php echo $alm->__GET('FechaNacimiento'); ?>" style="width:100%;" /></td>
+                            <td><input type="date" name="FechaNacimiento" value="<?php echo $alm->__GET('FechaNacimiento'); ?>" style="width:100%;" /></td>
                         </tr>
                         <tr>
                             <td colspan="2">

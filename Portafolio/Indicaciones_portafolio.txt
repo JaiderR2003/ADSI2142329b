@@ -1,8 +1,19 @@
-Para poder visualizar el portafolio, se debe clonar el repositorio https://github.com/JaiderR2003/ADSI2142329b
-El portafolio está en la carpeta Portafolio. La página principal se llama 'index.html'(que se encontrará debajo de la carpeta vista).Ademas de eso, habrá un archivo llamado 'natupoints.sql' el cual es la tabla de la base de datos del CRUD y se debe importar a Mysql. La base de datos debe llamarse 'natupoints'
+1. Para poder visualizar el portafolio, se debe clonar el repositorio https://github.com/JaiderR2003/ADSI2142329b
 
-En el index (página principal del portafolio) hay una barra de navegación llamada Menu el cuál estará flotando al lado superior izquierdo, solo se debe dar click y bajará el menú de navegación 
+2. El portafolio está en la carpeta 'Portafolio'. La página principal se llama 'index.html'(que se encontrará debajo de la carpeta vista).Ademas de eso, habrá un archivo llamado 'natupoints.sql' el cual es la tabla de la base de datos del CRUD y se debe importar a Mysql. La base de datos debe llamarse 'natupoints'
 
-Los manuales estarán en la carpeta vista/manuales. Aunque usted podrá acceder a ellos gracias a la barra de navegación anteriormente descrita
+3. En el index (página principal del portafolio) hay una barra de navegación llamada Menu el cuál estará flotando al lado superior izquierdo, solo se debe pasar el mouse y bajará el menú de navegación 
 
-Los trabajos de JavaScript estarán en el repositorio. También se podrá acceder a ellos mediante la barra de navegación 
+4. Los manuales estarán en la carpeta vista/manuales. Aunque usted podrá acceder a ellos gracias a la barra de navegación anteriormente descrita. Hay tres páginas que explicaran el manual tecnico y el manual de usuarios  los cuales son:
+4.1 Index.html: Es la página principal que tiene el opbjetivo del manual y tres botones que redirigiran a diferentes partes. El primer bopton es el de 'Volver' el cual lo devolvera al index ('página principal del portafolio'), el boton Usuarios el cual lo llevara a la página usuarios.html donde estará el contenido del manual de usuarios y el boton 'Tecnico' que lo llevara a la página cliente.html donde estará el contenido del manual del cliente
+4.2 Usuarios.html: Es la página que contendrá la información del manual de usuarios
+4.3 cliente.html: Es la página donde estará la información del manual técnico
+
+5. Para interactuar con el CRUD, deberá seguir los pasos anteriores mencionados en el punto 2. Podrá acceder a él, mediante la barra de navegación con el boton que tiene como nombre 'CRUD'
+5.1 Para registrar datos de un nuevo usuario, usted deberá llenar el formulario que se le presentará en la página y posteriormente dar en el boton ('guardar') y listo, la información se guardará en la tabla expuesta en la vista y en la base de datos ('natupoints')
+5.2 Para poder editar los datos de un usuario, está el boton ('editar') el cual estará al lado derecho dentro de la tabla que contiene la información y tendrá que darle click. Posteriormente de darle click, la página se actualizará mostrando los datos en el formulario y usted deberá editar los datos en el formulario y darle click en el boton ('Guardar') y listo ya se habran actualizado los datos en la tabla expuesta en la vista y tambien en la base de datos ('natupoints)
+5.3 Para poder eliminar los datos de un usuario, estará el boton ('Eliminar') el cual estará al lado derecho de la tabla junto al boton ('editar'). Usted solo tendrá que darle click y los datos se eliminaran de la tabla ex´puesta en la vista y tambien de la base de datos ('natupoints')
+
+6. Los trabajos de JavaScript tienen una página propia y se podrá acceder a el, mediante las imagenes que estan en el  contenido del index('página principal del portafolio'). También se podrá acceder a ellos mediante la barra de navegación en el boton ('JavaScript').
+
+7. En la parte inferior del index('página principal del portafolio') estaran tres logos que son: facebook, github e instagram los cuales lo podran llevar a mis redes sociales dando click encima de estos últimos mencionados
